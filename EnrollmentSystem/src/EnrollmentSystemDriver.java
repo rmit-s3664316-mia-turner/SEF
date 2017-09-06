@@ -38,7 +38,7 @@ public class EnrollmentSystemDriver {
             //student menu
             
         }
-        else if (userList.get(userRef) instanceof Lecturer)){
+        else if (userList.get(userRef) instanceof Lecturer){
             
             //do differnt shit
         }

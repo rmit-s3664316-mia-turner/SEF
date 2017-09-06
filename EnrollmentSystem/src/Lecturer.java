@@ -1,16 +1,20 @@
 
+
+import JUnitTest.Student;
+import JUnitTest.User;
+
 public class Lecturer extends User {
     
-    private String courseList;
+    private String[] courseList;
     
     
     
-    public Lecturer(String courseList, String username, String password){
+    public Lecturer(String username, String password, String courseList[]){
         super(username, password);
         this.courseList = courseList;
     }
     
-    public String getCourseList(){
+    public String[] getCourseList(){
         return courseList;
     }
     
